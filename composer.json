@@ -1,0 +1,5 @@
+{
+    "require": {
+        "kernello/cloudabis-sdk": "^3.2"
+    }
+}

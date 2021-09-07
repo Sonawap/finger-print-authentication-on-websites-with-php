@@ -1,0 +1,43 @@
+{
+    "packages": [
+        {
+            "name": "kernello/cloudabis-sdk",
+            "version": "v3.2.3",
+            "version_normalized": "3.2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kernello/cloudabis-php-sdk.git",
+                "reference": "8677edf1f7a160892e0b7023141feea5d85fadb5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kernello/cloudabis-php-sdk/zipball/8677edf1f7a160892e0b7023141feea5d85fadb5",
+                "reference": "8677edf1f7a160892e0b7023141feea5d85fadb5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2019-11-19T11:20:32+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "cloudabis_sdk\\": "src/CloudABIS-SDK"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "CloudABIS™ can compare millions of ISO fingerprint templates/sec for fast 1:N matching & de-duplication requirements. Customers simply connect through our API or CloudApper™ software & instantly have the ability to perform fast 1:N matching. Our software supports many fingerprint readers & device activation is seamless with our CloudScanr™ app. CloudScanr™ also enables the biometric system to instantly work across any web browser.",
+            "support": {
+                "issues": "https://github.com/kernello/cloudabis-php-sdk/issues",
+                "source": "https://github.com/kernello/cloudabis-php-sdk/tree/master"
+            },
+            "install-path": "../kernello/cloudabis-sdk"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

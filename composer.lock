@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "37ea6b63c77bb4d2a8eeda98fda77ac2",
+    "packages": [
+        {
+            "name": "kernello/cloudabis-sdk",
+            "version": "v3.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kernello/cloudabis-php-sdk.git",
+                "reference": "8677edf1f7a160892e0b7023141feea5d85fadb5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kernello/cloudabis-php-sdk/zipball/8677edf1f7a160892e0b7023141feea5d85fadb5",
+                "reference": "8677edf1f7a160892e0b7023141feea5d85fadb5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "cloudabis_sdk\\": "src/CloudABIS-SDK"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "CloudABIS™ can compare millions of ISO fingerprint templates/sec for fast 1:N matching & de-duplication requirements. Customers simply connect through our API or CloudApper™ software & instantly have the ability to perform fast 1:N matching. Our software supports many fingerprint readers & device activation is seamless with our CloudScanr™ app. CloudScanr™ also enables the biometric system to instantly work across any web browser.",
+            "support": {
+                "issues": "https://github.com/kernello/cloudabis-php-sdk/issues",
+                "source": "https://github.com/kernello/cloudabis-php-sdk/tree/master"
+            },
+            "time": "2019-11-19T11:20:32+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
